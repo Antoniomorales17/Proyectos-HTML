@@ -1,0 +1,80 @@
+<!-- Crea un formulario completo-->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulario Completo proyecto 21</title>
+</head>
+<body>
+
+    <form action="#" method="POST">
+        <fieldset>
+            <legend>Formulario Completo</legend>
+
+            <!-- Campo de Email -->
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required>
+            <br><br>
+
+            <!-- Campo de Contraseña -->
+            <label for="password">Contraseña:</label>
+            <input type="password" id="password" name="password" required>
+            <br><br>
+
+            <!-- Campo de Textarea -->
+            <label for="comments">Comentarios:</label>
+            <textarea id="comments" name="comments" rows="4" cols="50"></textarea>
+            <br><br>
+
+            <!-- Campo de Radio -->
+            <label>Género:</label>
+            <input type="radio" id="male" name="gender" value="male">
+            <label for="male">Hombre</label>
+            <input type="radio" id="female" name="gender" value="female">
+            <label for="female">Mujer</label>
+            <br><br>
+
+            <!-- Campo de Select -->
+            <label for="country">País:</label>
+            <select id="country" name="country">
+                <option value="es">España</option>
+                <option value="us">Estados Unidos</option>
+                <option value="mx">México</option>
+                <option value="fr">Francia</option>
+            </select>
+            <br><br>
+
+            <!-- Campo de Checkbox -->
+            <label for="subscribe">Suscribirse al boletín:</label>
+            <input type="checkbox" id="subscribe" name="subscribe">
+            <br><br>
+
+            <!-- Campo de Fichero -->
+            <label for="file">Subir un archivo:</label>
+            <input type="file" id="file" name="file">
+            <br><br>
+
+            <!-- Campo de Fecha -->
+            <label for="birthday">Fecha de nacimiento:</label>
+            <input type="date" id="birthday" name="birthday">
+            <br><br>
+
+            <!-- Campo de Número -->
+            <label for="quantity">Cantidad:</label>
+            <input type="number" id="quantity" name="quantity" min="1" max="10">
+            <br><br>
+
+            <!-- Campo de Color -->
+            <label for="color">Color favorito:</label>
+            <input type="color" id="color" name="color">
+            <br><br>
+
+            <!-- Campo Submit -->
+            <input type="submit" value="Enviar">
+        </fieldset>
+    </form>
+
+</body>
+</html>
